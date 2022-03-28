@@ -14,8 +14,8 @@ if(!$conn)
         }
 if(isset($_POST['username']))
 {
-  $uname=$_POST['username'];
-  $password= $_POST['password'];
+  $usame=$_POST['username'];
+  $Password= $_POST['password'];
 
   $sql="select * from user where First_Name = '".$uname."' AND pass='".$password."' limit 1";
 
@@ -27,7 +27,7 @@ if(isset($_POST['username']))
     exit();
   }
   else{
-    echo "incorrect login";
+    echo "incorrect Login";
     exit();
   }
 }
