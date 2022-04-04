@@ -1,0 +1,74 @@
+/* Bordered form */
+form {
+  border: 3px solid white;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  display:inline-block ;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    border:var(--border);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    color:var(#48AAAD);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #48AAAD;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+ display:inline-block ;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    border:var(--border);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    color:var(#48AAAD);
+    cursor: pointer;
+    font-size: 1.7rem;
+  background: #ED2939;
+
+}
+
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+/* Add padding to containers */
+.card1{
+  width: 650px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

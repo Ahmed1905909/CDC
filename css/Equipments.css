@@ -1,0 +1,47 @@
+:root{
+   
+    --slate: #757c88;
+    --red: #ED2939;
+    --teal: #48AAAD;
+  
+}
+
+body {
+    line-height: 1.6;
+    margin: 2em;
+    min-width: 990px;
+}
+
+th {
+    background-color: teal;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* Column types */
+th.missed-col {
+    background-color: teal;
+}
+
+td.missed-col {
+    background-color: #757c88;
+    color: white;
+    text-align: center;
+}
+
+.name-col {
+    text-align: left;
+}
+
+.notes{
+    width: 20px;
+}
