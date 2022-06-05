@@ -1,0 +1,36 @@
+:root{
+   
+    --slate: #757c88;
+    --red: #ED2939;
+    --teal: #48AAAD;
+  
+}
+
+body {
+    line-height: 1.6;
+    margin: 2em;
+    min-width: 990px;
+}
+
+th {
+    background-color: teal;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 5em;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+
+
+
+.name-col {
+    text-align: left;
+}
